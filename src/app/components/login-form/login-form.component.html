@@ -2,10 +2,18 @@
     <ng-template pTemplate="header">
         <img class="logo-instagram" alt="Instagram Logo" src="assets/logo-Instagram.png" />
     </ng-template>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
-        quas!
-    </p>
+    <div class="login-form-control-container">
+        <input class="login-form-control p-inputtext-sm" type="text" pInputText size="small" placeholder="Phone number, username or email" />
+        <input class="login-form-control p-inputtext-sm" type="text" pInputText size="small" placeholder="Password" />
+
+        <p-button class="login-form-control-button" size="small" label="Log in"></p-button>
+
+    </div>
+    <p-divider align="center" >
+        <small>OR</small>
+    </p-divider>
+
+
     <ng-template pTemplate="footer">
        </ng-template>
 </p-card>
